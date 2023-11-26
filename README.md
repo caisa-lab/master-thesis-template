@@ -7,7 +7,6 @@ You can use this [zip file](https://github.com/caisa-lab/master-thesis-template/
 * Appendices: Insert your appendix latex
 * Chapters: Add your chapters' latex files to this folder.
 * Resources: Your images and plots can be uploaded here. Might be best to organize subfolders for each chapter.
-* Uni-bonn-style: Style definitions
 
 #### Disclaimer
 * This template uses elements of the University of Bonn's corporate design, but it is not an official template.

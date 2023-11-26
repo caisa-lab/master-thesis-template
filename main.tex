@@ -1,0 +1,100 @@
+% Template Master Thesis 
+% University of Bonn - CAISA Lab
+
+\documentclass[twoside, 12pt,  footinclude=true,  headinclude=true,  cleardoublepage=empty]{scrbook}
+
+\usepackage[utf8]{inputenc}
+\usepackage [english] {babel} 
+
+\usepackage[]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{lipsum}
+\usepackage[linedheaders,parts,pdfspacing]{classicthesis}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage [T1]{fontenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage[toc,page]{appendix}
+\usepackage{MnSymbol}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{mathtools} 
+\usepackage{enumerate}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[nohyperlinks]{acronym}
+\usepackage[a4paper,includeall,bindingoffset=20mm,margin=2cm,marginparsep=0cm,marginparwidth=0cm]{geometry}
+\usepackage[font={footnotesize,it}, labelfont=bf]{caption}
+
+\begin{document}
+\begin{titlepage}
+\centering
+{\includegraphics[width=6cm]{logo/UNI_Bonn_Logo.jpg}}
+\vspace{0.8cm}
+
+\textbf{University of Bonn}
+  
+Department of Computer Science
+            
+M.Sc. Computer Science
+\vspace{1in}
+
+{\Large \bfseries Master's Thesis}
+\vspace{1in}
+
+{\LARGE \bfseries TITLE}
+\vspace{1in}
+
+{\large Submitted by}	
+
+{\LARGE YOUR NAME\par}
+\vspace{1in}
+
+Supervisor: Prof. Dr. Lucie Flek
+\par
+Advisor: NAME
+\vfill
+\today
+\end{titlepage}
+
+\frontmatter
+\include{dec-honesty}
+\include{acknowledgement}
+\include{abstract}
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\mainmatter
+
+\include{chapters/introduction}
+\include{chapters/related-work}
+\include{chapters/theoretical-foundations}
+\include{chapters/methodology}
+\include{chapters/data}
+\include{chapters/experiments}
+\include{chapters/conclusion}
+\include{chapters/ethic-statement}
+
+\nocite{*}
+\emergencystretch=1em
+\printbibliography[heading=bibintoc]
+
+\include{abbreviations}
+
+\appendix
+\include{appendix}
+
+\end{document}

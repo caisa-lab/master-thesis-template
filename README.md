@@ -1,7 +1,7 @@
 # Master's Thesis Template for Overleaf (University of Bonn)
 This is an overleaf template for a Master's thesis based on the `scrbook` class at the University of Bonn. Feel free to clone the repository and make changes for your own purposes. 
 
-You can use this[zip file](https://github.com/caisa-lab/master-thesis-template/blob/main/Masters%20Thesis%20Template.zip) to upload it directly to overleaf.
+You can use this [zip file](https://github.com/caisa-lab/master-thesis-template/blob/main/Masters%20Thesis%20Template.zip) to upload it directly to overleaf.
 
 ### Folder Structure
 * Appendices: Insert your appendix latex
